@@ -1,6 +1,6 @@
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
-operation = input("Choose an operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
 match operation:
     case "+":   
@@ -21,4 +21,3 @@ match operation:
             print("Error: Division by zero is not allowed.")
     case _:
         print("Invalid operation selected.")
-            
