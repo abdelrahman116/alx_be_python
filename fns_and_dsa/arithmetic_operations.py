@@ -1,4 +1,4 @@
-def perform_operation(num1:float, num2:float, operation:str):
+def perform_operation(num1, num2, operation):
 #  while(operation == 'add' or operation == 'multiply' or operation == 'subtract' or operation == 'divide'):
     if(operation == 'add'):
         return num1 + num2
