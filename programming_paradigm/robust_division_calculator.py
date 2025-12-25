@@ -1,0 +1,12 @@
+def safe_divide(numerator, denominator):
+    try:
+        if denominator == 0:
+            raise ZeroDivisionError
+        numerator = float(numerator)
+        denominator = float(denominator)
+        result = numerator / denominator
+        return f"The result if the division is {result}"
+    except ZeroDivisionError:
+        return("Error: Cannot divide by zero.")
+    except ValueError:
+        return("Error: Please enter numeric values only.")
