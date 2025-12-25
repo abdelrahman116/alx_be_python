@@ -9,4 +9,4 @@ class BankAccount:
         else:
             print("Insufficient funds")
     def display_balance(self):
-         print(f"Hi, Your Current Balance is: {self.account_balance}")
+         print(f"Hi, Your Current Balance: {self.account_balance}")
