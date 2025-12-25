@@ -5,9 +5,9 @@ class Claculator_Test(unittest.TestCase):
         self.calc = SimpleCalculator()
     def test_addition(self):
         self.assertEqual(self.calc.add(self,5,5),10)
-    def test_subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(self,5,5),0)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(self,5,5),25)
     def test_divide_normal(self):
         self.assertEqual(self.calc.divide(self,5,5),1)
