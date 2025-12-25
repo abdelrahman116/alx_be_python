@@ -4,7 +4,7 @@ class BankAccount:
     def deposit(self, amount):
         self.account_balance+= int(amount)
     def withdraw(self, amount):
-        if self.account_balance >= int(amount):
+        if self.account_balance >= int(amount) and self.account_balance > 0:
             self.account_balance-= int(amount)
         else:
             print("Insufficient funds")
