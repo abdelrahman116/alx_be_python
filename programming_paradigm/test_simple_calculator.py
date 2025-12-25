@@ -1,6 +1,6 @@
 import unittest 
 from simple_calculator import SimpleCalculator
-
+SimpleCalculator()
 class Claculator_Test(unittest.TestCase):
     def test_add(self):
         self.assertEqual(SimpleCalculator.add(self,5,5),10)
