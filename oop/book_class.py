@@ -12,7 +12,7 @@ class Book:
     def __repr__(self):
             print(f"Book('{self.title}', '{self.author}', {self.year})")
 
-    def __del__ (self):
+    def __del__(self):
             print("Deleting (title of the book)")
         
 
